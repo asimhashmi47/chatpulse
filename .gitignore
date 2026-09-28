@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+out/
+
+# SQLite runtime database (created on first run via EF Core migrations)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Rider / VS Code
+.idea/
+*.swp
+.vscode/*
+!.vscode/extensions.json
+
+# ASP.NET Core secrets / environment
+appsettings.*.local.json
+secrets.json
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
